@@ -9,7 +9,7 @@
  	<div class="features-wrapper"></div>	
 
 	  <script>
-	var formApiCode='</select><input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR']?>"><input type="hidden" name="flow_hash" value="TQhV"><input type="hidden" name="sub1" value="{sub_id_11}"><input type="hidden" name="sub2" value="{subid}"><input type="hidden" name="sub3" value=""><input type="hidden" name="sub4" value="{sub_id_10}"><input type="hidden" name="sub5" value=""><input type="hidden" name="referrer" value="<?=$_SERVER['HTTP_REFERER']?>">';
+	var formApiCode='<input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR']?>"><input type="hidden" name="flow_hash" value="TQhV"><input type="hidden" name="sub1" value="{sub_id_11}"><input type="hidden" name="sub2" value="{subid}"><input type="hidden" name="sub3" value=""><input type="hidden" name="sub4" value="{sub_id_10}"><input type="hidden" name="sub5" value=""><input type="hidden" name="referrer" value="<?=$_SERVER['HTTP_REFERER']?>">';
 	initFeatures({
 	lang : 'cz', 
 	priceMain: 790,
@@ -19,14 +19,14 @@
 	formApiCode:formApiCode,
         
         form : {
-             isNeeded : 1, // 1-включить форму, 0-
+         isNeeded : 1, // 1-включить форму, 0-
 	     scrollAllLinks: false,
 	     orderScript: 'order.php', //путь к скрипту отправки лидов, по умолчанию getform.php
 	     img: 'img/product.png', // путь до картинки продукта
 	     price : true, // плашка с ценой
-             priceBrFix : true, // фиксит отображение цен в ценике (true - уберает перенос строки)
+         priceBrFix : true, // фиксит отображение цен в ценике (true - уберает перенос строки)
 	     showSelect : false, // показывать или скрывать поле select
-             untilExpire : 600 // таймер окончания акции где 600 = 10мин. Ставим 0 если таймер не нужен.
+         untilExpire : 600 // таймер окончания акции где 600 = 10мин. Ставим 0 если таймер не нужен.
         },
 	formApi:{
 	     isNeeded: 1,
