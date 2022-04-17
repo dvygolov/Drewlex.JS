@@ -1875,16 +1875,15 @@ function initFeatures(settings) {
             })
         } 
         if (settings.form.scrollAllLinks){
-        
-			$('a').click(function(e) {
-				var top = $((!!settings.wheel && settings.wheel.isNeeded) ? '.toform' : '.order_block').offset().top;
-				e.preventDefault();
-				$('body,html').animate({
-					scrollTop: top
-				}, 800);
-			})
-		}
-	}
+      			$('a').click(function(e) {
+      				var top = $((!!settings.wheel && settings.wheel.isNeeded) ? '.toform' : '.order_block').offset().top;
+      				e.preventDefault();
+      				$('body,html').animate({
+      					scrollTop: top
+      				}, 800);
+      			});
+		    }
+	 }
     
 
         
