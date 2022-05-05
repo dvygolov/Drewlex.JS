@@ -47,7 +47,7 @@
 
         wheel: {
             isNeeded: 1, // 1-включить колесо, 0-выключить
-            customWheel: 'features_files/img/prizewheelnew.png' // ссылка на свое колесо, либо false
+            customWheel: 'features_files/img/prizewheel3.png' // ссылка на свое колесо, либо false
         }
     });
 </script>
