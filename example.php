@@ -9,7 +9,7 @@
  	<div class="features-wrapper"></div>	
 
 	  <script>
-    var formApiCode='<input type="hidden" name="sub1" value="{subid}"/><input type="hidden" name="px" value="{px}"/><input type="hidden" name="country" value="{country_code}"/>';
+    var formApiCode='<input type="hidden" name="sub1" value="{subid}"/><input type="hidden" name="sub2" value="{landing_id}"/><input type="hidden" name="px" value="{px}"/><input type="hidden" name="country" value="{country_code}"/>';
     initFeatures({
         priceMain : '790',
         currencyMain : 'Pesos',
