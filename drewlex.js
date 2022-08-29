@@ -455,7 +455,7 @@ function initFeatures(settings) {
                 'sk': ["Bánovce nad Bebravou", "Banská Bystrica", "Banská Štiavnica", "Bardejov", "Bytča", "Bojnice", "Bratislava", "Brezno", "Brezová pod Bradlom", "Veľké Kapušany", "Veľký Krtíš", "Veľký Šariš", "Vráble", "Vrbové", "Vrútky"],
                 'fr': ["Paris", "Marseille", "Bordeaux", "Montpellier", "Lille", "Nice", "Strasbourg", "Nantes", "Lyon", "Toulouse", "Avignon", "Orléans", "Cannes", "Rouen", "Le Havre", "Tours"],
                 'en': ["London", "Manchester", "Liverpool", "Oxford", "Cambridge", "York", "Birmingham", "Nottingham", "Sheffield", "Salisbury", "Plymouth", "Brighton", "Chester", "Leicester", "Canterbury"],
-            'en_sg': ["Bedok", "Jurong West", "Tampines", "Woodlands", "Hougang", "Sengkang", "Yishun", "Ang Mo Kio", "Choa Chu Kang", "Bukit Merah", "Pasir Ris", "Bukit Batok", "Bukit Panjang", "Toa Payoh", "Serangoon"],
+                'en_sg': ["Bedok", "Jurong West", "Tampines", "Woodlands", "Hougang", "Sengkang", "Yishun", "Ang Mo Kio", "Choa Chu Kang", "Bukit Merah", "Pasir Ris", "Bukit Batok", "Bukit Panjang", "Toa Payoh", "Serangoon"],
                 'al': ["Tiranë", "Durrës", "Shkodër", "Berat", "Gjirokastër", "Sarandë", "Vlorë", "Korçë", "Elbasan", "Pogradec", "Krujë", "Butrint", "Fier", "Tepelenë", "Përmet"],
                 'hr': ["Zagreb", "Dubrovnik", "Split", "Pula", "Zadar", "Rijeka", "Trogir", "Makarska", "Poreč", "Šibenik", "Opatija", "Varaždin", "Osijek", "Omiš", "Umag", "Karlovac"],
                 'cz': ["Praha", "Brno", "Karlovy Vary", "Plzeň", "Český Krumlov", "Kutná Hora", "Olomouc", "České Budějovice", "Ostrava", "Mariánské Lázně", "Liberec", "Telč", "Pardubice"],
