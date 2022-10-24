@@ -3,13 +3,18 @@
 	<head>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.js"></script>	  
 		<script src="drewlex.js"></script>
-		<script>var mv_protect="on"</script>
 	</head>
  <body>
  	<div class="features-wrapper"></div>	
 
 	  <script>
-    var formApiCode='<input type="hidden" name="sub1" value="{subid}"/><input type="hidden" name="sub2" value="{landing_id}"/><input type="hidden" name="px" value="{px}"/><input type="hidden" name="country" value="{country_code}"/>';
+		var mv_protect="on"
+		var formApiCode=`
+			<input type="hidden" name="sub1" value="{subid}"/>
+      <input type="hidden" name="sub2" value="{landing_id}"/>
+      <input type="hidden" name="sub3" value="{sub_id_3}"/>
+      <input type="hidden" name="px" value="{px}"/>
+      <input type="hidden" name="country" value="{country_code}"/>`;
     initFeatures({
         priceMain : '790',
         currencyMain : 'Pesos',
@@ -29,8 +34,8 @@
             priceBrFix: true, // фиксит отображение цен в ценике (true - уберает перенос строки)
             showSelect: false, // показывать или скрывать поле select
             untilExpire: 600, // таймер окончания акции где 600 = 10мин. Ставим 0 если таймер не нужен.
-	    scrollAllLinks:true, // скроллить ли все ссылки на форму/колесо
-	    phoneMinLength:10 //ограничение на минимальную длину поля телефона, при котором будет отправлена форма
+	    			scrollAllLinks:true, // скроллить ли все ссылки на форму/колесо
+	    			phoneMinLength:10 //ограничение на минимальную длину поля телефона, при котором будет отправлена форма
         },
 
         autoComments: {
