@@ -8,27 +8,23 @@
  	<div class="features-wrapper"></div>	
 
 	  <script>
-		var mv_protect="on"
-		var formApiCode=`
-			<input type="hidden" name="sub1" value="{subid}"/>
-      <input type="hidden" name="sub2" value="{landing_id}"/>
-      <input type="hidden" name="sub3" value="{sub_id_3}"/>
-      <input type="hidden" name="px" value="{px}"/>
-      <input type="hidden" name="country" value="{country_code}"/>`;
     initFeatures({
+				protect: 1, //включить/выключить защиту от копирования
         priceMain : '790',
         currencyMain : 'Pesos',
         lang : 'es', 
         product : 'Hydroserum', // название продукта
         genderTargetting : 'female', // пол целевой аудитории - all, male, female
-        formApiCode: formApiCode, //доп. поля для формы, определённые выше
   
-        formApi:{ 
-            isNeeded:1 //нужно ли добавлять в формы доп. поля
-        },
         form : {
             isNeeded : 1, // 1-включить форму, 0-выключить
-            orderScript: '../common/order/mx/hydroserum.php',
+           	subs:`
+							<input type="hidden" name="sub1" value="{subid}"/>
+      				<input type="hidden" name="sub2" value="{landing_id}"/>
+      				<input type="hidden" name="sub3" value="{sub_id_3}"/>
+      				<input type="hidden" name="px" value="{px}"/>
+      				<input type="hidden" name="country" value="{country_code}"/>`, //если вам нужно добавлять в форму сабы
+						orderScript: '../common/order/mx/hydroserum.php', //путь к файлу отправки лидов
             img: '../common/products/hydroserum.png', // путь до картинки продукта
             price: true, // плашка с ценой
             priceBrFix: true, // фиксит отображение цен в ценике (true - уберает перенос строки)
